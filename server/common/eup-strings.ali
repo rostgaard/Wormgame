@@ -1,0 +1,122 @@
+V "GNAT Lib v4.3"
+A -O3
+A -fstack-check
+A -gnat05
+A -gnatE
+A -gnato
+A -gnatv
+A -gnati1
+A -gnatf
+A -gnatA
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U eup.strings%b		eup-strings.adb		4e6360c6 DE NE PK IU
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.latin_1%s  a-chlat1.ads	a-chlat1.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W eup%s			eup.ads			eup.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+
+U eup.strings%s		eup-strings.ads		806336c5 DE EE NE PK IU
+W eup%s			eup.ads			eup.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-charac.ads		20070912115821 506ce725
+D a-chlat1.ads		20070912115821 e9ee6d0a
+D a-except.ads		20070606104609 ba3e26e2
+D a-finali.ads		20070606101851 9eaacebd
+D a-filico.ads		20051115140645 9299732a
+D a-stream.ads		20061031174905 34aca5be
+D a-string.ads		20070406091342 87b4230b
+D a-strfix.ads		20070406091342 253a46ca
+D a-strmap.ads		20061031174905 5253a637
+D a-strunb.ads		20061031174905 f0549c04
+D a-tags.ads		20071213102130 e10285b3
+D a-unccon.ads		20070406091342 51e09df2
+D ada_streams.ads	20060522061446 915bf429
+D eup.ads		20080123134117 93cfd1c0
+D eup-strings.ads	20080123134117 13ace705
+D eup-strings.adb	20080123134117 16af8f08
+D interfac.ads		20051209172227 a69cad5c
+D posix.ads		20081012210111 6e44b47d
+D system.ads		20080906161940 e2b32c27
+D s-exctab.ads		20070912115821 5c1c61ae
+D s-finimp.ads		20070606101344 9449f4cb
+D s-finroo.ads		20070814084926 1408f9d1
+D s-parame.ads		20070814084525 f32e56e9
+D s-secsta.ads		20070912115821 7bae3621
+D s-soflin.ads		20071213103411 2b67bae6
+D s-stache.ads		20070912115821 257b3be8
+D s-stalib.ads		20070912115821 9ac44ca2
+D s-stoele.ads		20070912115821 1104c881
+D s-stoele.adb		20071213103502 e9998c78
+D s-stratt.ads		20070406092920 b4bf338e
+D s-strops.ads		20070912115821 845f72d2
+D s-sopco3.ads		20070912115821 72ce1063
+D s-sopco4.ads		20070912115821 bc112723
+D s-sopco5.ads		20070912115821 191315e8
+D s-traent.ads		20070912115821 bd5f2753
+D s-unstyp.ads		20070912115821 c0f9fae5
+X 1 ada.ads
+16K9*Ada 19e8 17|1r6 2r6 3r6 9r11 14r39 25r11 26r11 31r39 61r50
+X 2 a-charac.ads
+16K13*Characters 18e19 17|1r10 14r43 31r43 61r54
+X 3 a-chlat1.ads
+20K24*Latin_1 298e27 17|1w21 14r54 31r54 61r65
+27e4*NUL{character} 17|14r62 31r62 61r73
+X 8 a-string.ads
+16K13*Strings 35e16 17|2w10 3r10 9r15 25r15 26r15
+29n24*Left{29E9} 17|37r27 43r27
+30n30*Right{30E9} 17|36r27 42r27
+X 9 a-strfix.ads
+18K21*Fixed 242e22 17|3w18 9r23 26r23
+25U14*Move 17|34r10 40r10
+26s7 Source{string} 17|34r16 40r16
+27s7 Target{string} 17|35r16 41r16
+28e7 Drop{8|30E9} 17|36r16 42r16
+29e7 Justify{8|29E9} 17|37r16 43r16
+30e7 Pad{character} 17|38r16 44r16
+36V13*Index{natural} 17|13r15 30r15
+37s7 Source{string} 17|13r22 30r22
+38s7 Pattern{string} 17|14r22 31r22
+X 15 eup.ads
+3K9*EUP 7e8 16|1r9 20r5 17|5r14 76r5
+4A12*Ada_String{string}<integer> 16|2r63 5r36 6r53 10r53 13r44 16r33 19r33
+. 17|7r63 22r36 23r53 51r53 58r44 64r33 71r33
+5A12*POSIX_String{19|183A9}<integer> 16|2r42 9r36 13r63 17r33 18r33 17|7r42
+. 50r36 58r63 65r33 70r33
+X 16 eup-strings.ads
+1K13*Strings 15|3k9 16|20l9 20e16 17|5b18 76l9 76t16
+2V13*To_Ada_String{15|4A12} 2>28 17|7b13 20l8 20t21 54r31 67r21 73r14
+2a28 Item{15|5A12} 17|7b28 10r43
+5V13*Format{15|4A12} 5>21 6>21 17|22b13 48l8 48t14 54r14
+5a21 Item{15|4A12} 17|22b21 30r33 34r27 40r27 40r33 54r22
+6i21 Width{positive} 17|23b21 27r29 55r22
+9V13*Format{15|4A12} 9>21 10>21 17|50b13 56l8 56t14
+9a21 Item{15|5A12} 17|50b21 54r46
+10i21 Width{positive} 17|51b21 55r31
+13V13*To_POSIX_String{15|5A12} 13>30 17|58b13 62l8 62t23
+13a30 Item{15|4A12} 17|58b30 61r37
+16V13*"="{boolean} 16>18 17>18 17|64b13 68l8 68t11
+16a18 Left{15|4A12} 17|64b18 67r14
+17a18 Right{15|5A12} 17|65b18 67r36
+18V13*"="{boolean} 18>18 19>18 17|70b13 74l8 74t11
+18a18 Left{15|5A12} 17|70b18 73r29
+19a18 Right{15|4A12} 17|71b18 73r37
+X 17 eup-strings.adb
+10a7 Buffer{string} 13r33 16r17 18r17 18r25
+11i7 Junk{natural} 13m7 15r10 18r41
+27a7 Buffer{string} 35m27 41m27 47r14
+28i7 Junk{natural} 30m7 33r10 40r47
+X 19 posix.ads
+43K9*POSIX 17|10r26 61r14 19|640e10
+145E9*POSIX_Character<character>
+183A9*POSIX_String(145E9)<integer>
+184V13*To_POSIX_String{183A9} 17|61r20
+186V13*To_String{string} 17|10r32
+

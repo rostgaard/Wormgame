@@ -1,0 +1,181 @@
+V "GNAT Lib v4.3"
+A -O3
+A -fstack-check
+A -gnat05
+A -gnat05
+A -gnatE
+A -gnato
+A -gnatv
+A -gnati1
+A -gnatf
+A -gnatA
+P SS ZX
+R nnnnnnnnnnnnnnnvnnvnnnvnnnvnnnnnnnnnnvnvnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnn
+
+U user%b		user.adb		469f864b DE NE PK
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+U user%s		user.ads		c33b00f3 DE EE PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.bounded%s	a-strbou.adb		a-strbou.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W eup%s			eup.ads			eup.ali
+W eup.text_io%s		eup-text_io.adb		eup-text_io.ali
+W generic_memory_mapped_arrays%s  generic_memory_mapped_arrays.adb  generic_memory_mapped_arrays.ali
+W posix%s		posix.adb		posix.ali
+W posix.files%s		posix-files.adb		posix-files.ali
+W posix.io%s		posix-io.adb		posix-io.ali
+W posix.memory_mapping%s  posix-memory_mapping.adb  posix-memory_mapping.ali
+W protocol%s		protocol.adb		protocol.ali
+W system%s		system.ads		system.ali
+W system.address_to_access_conversions%s
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-calend.ads		20070912131154 e18fa1bf
+D a-charac.ads		20070912115821 506ce725
+D a-chlat1.ads		20070912115821 e9ee6d0a
+D a-except.ads		20070606104609 ba3e26e2
+D a-finali.ads		20070606101851 9eaacebd
+D a-filico.ads		20051115140645 9299732a
+D a-inteio.ads		20070406091342 03bc737c
+D a-ioexce.ads		20070406091342 be0900a0
+D a-numeri.ads		20070406091342 1cf3e608
+D a-nudira.ads		20061031181603 56734efa
+D a-stream.ads		20061031174905 34aca5be
+D a-string.ads		20070406091342 87b4230b
+D a-strbou.ads		20061031174905 58efc6ae
+D a-strbou.adb		20051115140645 fa5f56f4
+D a-strmap.ads		20061031174905 5253a637
+D a-strsup.ads		20051115140645 9dd84fea
+D a-strunb.ads		20061031174905 f0549c04
+D a-tags.ads		20071213102130 e10285b3
+D a-textio.ads		20071213102052 bc6e78fe
+D a-tiinio.ads		20060215092843 949a7272
+D a-unccon.ads		20070406091342 51e09df2
+D ada_streams.ads	20060522061446 915bf429
+D calendar.ads		20070406091342 81c96233
+D eup.ads		20080123134117 93cfd1c0
+D eup-text_io.ads	20080123134117 9183653e
+D generic_memory_mapped_arrays.ads  20080123134117 42964f28
+D generic_memory_mapped_arrays.adb  20080123134117 1b5f688d
+D interfac.ads		20051209172227 a69cad5c
+D i-c.ads		20070406091342 bc3ef662
+D i-cstrea.ads		20070406092312 e1e064a9
+D posix.ads		20081012210111 6e44b47d
+D posix-c.ads		20081012210111 29a9a08b
+D posix-calendar.ads	20060522061445 9fd79a6f
+D posix-files.ads	20060522061445 fc921803
+D posix-implementation.ads  20060522061446 3496acfc
+D posix-io.ads		20060522061445 5e81f032
+D posix-io.adb		20060522061445 48c29e61
+D posix-memory_mapping.ads  20060522061445 9e5c69bc
+D posix-permissions.ads	20060522061445 119de239
+D posix-permissions-implementation.ads  20060522061445 447b7aa9
+D posix-process_identification.ads  20060522061445 835ee1af
+D protocol.ads		20080123134117 c70b4a33
+D system.ads		20090104141102 e2b32c27
+D s-atacco.ads		20061031181603 60789a20
+D s-atacco.adb		20050701012917 7bf357a2
+D s-crtl.ads		20070406092312 ef997abb
+D s-exctab.ads		20070912115821 5c1c61ae
+D s-ficobl.ads		20070814084926 8bb681e5
+D s-finimp.ads		20070606101344 9449f4cb
+D s-finroo.ads		20070814084926 1408f9d1
+D s-intman.ads		20070814084346 c33ceba5
+D s-osinte.ads		20071213101844 d8d17ef4
+D s-parame.ads		20070814084525 f32e56e9
+D s-secsta.ads		20070912115821 7bae3621
+D s-soflin.ads		20071213103411 2b67bae6
+D s-stache.ads		20070912115821 257b3be8
+D s-stalib.ads		20070912115821 9ac44ca2
+D s-stoele.ads		20070912115821 1104c881
+D s-stoele.adb		20071213103502 e9998c78
+D s-stratt.ads		20070406092920 b4bf338e
+D s-strops.ads		20070912115821 845f72d2
+D s-sopco3.ads		20070912115821 72ce1063
+D s-sopco4.ads		20070912115821 bc112723
+D s-sopco5.ads		20070912115821 191315e8
+D s-traent.ads		20070912115821 bd5f2753
+D s-unstyp.ads		20070912115821 c0f9fae5
+D s-wchcon.ads		20071213102052 ab028799
+D unchconv.ads		20070406091342 34860a55
+D user.ads		20080123134117 527327bc
+D user.adb		20080123134117 14eca1f7
+D wormlevel.ads		20080123134117 cba2c1c8
+X 1 ada.ads
+16K9*Ada 19e8 70|1r6 1r18 4r3 8r34 71|2r8 3r8
+X 13 a-string.ads
+16K13*Strings 35e16 70|1r22 4r7 8r38 71|3r12
+X 14 a-strbou.ads
+41K21*Bounded 892e24 70|4w15 8r46
+45i7 Max{positive} 70|8r79
+48k12*Generic_Bounded_Length 890e30 70|8r54
+52R12*Bounded_String 70|12r32[8] 13r32[8]
+65V16*To_Bounded_String{52R12[70|8]} 70|12r65[8] 13r65[8] 71|40r44[70|8]
+69V16*To_String{string} 71|85r44[70|8]
+164V16*"="{boolean}<17|165p13> 71|40r27[70|8]
+X 18 a-strunb.ads
+41K21*Unbounded 430e26 70|1w30 71|3r20
+X 20 a-textio.ads
+50K13*Text_IO 482e16 70|1w10 71|2r12
+265U14*Put_Line 71|35r7 58r7 82r7 102r7
+X 27 generic_memory_mapped_arrays.ads
+4+9 Element_Type 70|18r57
+5E9 Index_Range 70|19r57
+6A9 Element_Array(4+9)<5E9> 70|20r57
+7*4 Default_Value{4+9} 70|21r57
+8k9*Generic_Memory_Mapped_Arrays 44e33 70|3w6 18r27
+9R9*File_Type 70|24r31[18]
+11U14*Open 71|8r15[70|18]
+16V13*First{integer} 71|37r24[70|18] 84r24[70|18]
+17V13*Last{integer} 71|10r18[70|18] 37r59[70|18] 84r59[70|18] 92r48[70|18]
+19V13*Element{70|11R9} 71|38r26[70|18] 85r62[70|18]
+33U14*Resize 71|11r18[70|18] 92r15[70|18]
+X 28 generic_memory_mapped_arrays.adb
+216U17 Write[37|161] 38|456b14[70|18]
+X 43 protocol.ads
+4K9*Protocol 98e13 70|2w6
+X 70 user.ads
+7K9*User 31l5 31e9 71|1b14 120l5 120t9
+8K12*Bounded_String[14|48] 12r17 12r50 13r17 13r50 71|30r11 40r29 85r29
+11R9*A_User 14e14 16r51 18r74 71|32r19 55r20 99r18
+12r6*Username{14|52R12[8]} 71|40r18 85r90
+13r6*Password{14|52R12[8]}
+16A9*User_List(11R9)<integer> 20r74
+18K12*Usermap[27|8] 24r23 71|8r7 10r10 11r10 37r16 37r51 38r18 84r16 84r51
+. 85r54 92r7 92r40
+23a4*MMap_File_Name{string} 71|8r38
+24r4*MMap_File_Handle{27|9R9[18]} 71|8m20 10r23 11m25 37r30 37r64 38r34 84r30
+. 84r64 85r70 92m22 92r53
+27U14*Load_Usermap_File 71|5b14 13l8 13t25
+29V13*Authenticate{boolean} 29>26 29>47 71|53b13 75l8 75t20
+29s26 Username{string} 71|53b26
+29s47 Password{string} 71|53b47
+30V13*Create{boolean} 30>20 30>41 71|98b13 117l8 117t14
+30s20 Username{string} 71|98b20
+30s41 Password{string} 71|98b41
+X 71 user.adb
+16V13 Seperator{natural} 16b13 16>23 25l8 25t17
+16s23 Line{string} 17r29 20r24 21r20
+17i7 Position{natural} 21r26 22m10 22r22 24r14
+20i11 Seperator{integer}
+29V13 Find_User{integer} 29b13 29>23 51l8 51t17
+29s23 Username{string} 40r62
+31i7 Position{integer} 41r20 43m10 43r22
+32r7 User{70|11R9} 38m10 40r13
+37i11 U{integer} 38r51
+54i7 Found_User_Index{integer}
+55r7 Found_User{70|11R9}
+77V13 Find_Open_Slot{natural} 77b13 96l8 96t22
+78a7 Lookup_Username{string} 85m10 87r13
+79i7 Index_Snot{natural} 88r20 93r14
+84i11 U{integer} 85r87
+99r7 New_User{70|11R9}
+

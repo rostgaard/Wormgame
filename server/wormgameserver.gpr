@@ -1,0 +1,14 @@
+--  O mighty Emacs, please use -*- Ada -*- mode in this lowly file.
+with "florist",
+     "common/eup";
+project Wormgameserver is
+  for Main use ("wormgameserver");
+  for Object_Dir use "build";
+  for Exec_Dir use ".";
+  package Linker renames Florist.Linker;
+
+  package Compiler is
+     for Default_Switches ("ada") use ("-gnat05");
+  end Compiler;
+
+end Wormgameserver;

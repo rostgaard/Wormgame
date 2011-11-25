@@ -1,0 +1,160 @@
+V "GNAT Lib v4.3"
+A -O3
+A -fstack-check
+A -gnat05
+A -gnat05
+A -gnatE
+A -gnato
+A -gnatv
+A -gnati1
+A -gnatf
+A -gnatA
+P SS ZX
+R nnnnnnnvnnnnnnnnnnnnnnvvnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnn
+
+U worm%b		worm.adb		f8890920 DE NE PK
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+
+U worm%s		worm.ads		3d772a50 DE EE PK
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.containers.doubly_linked_lists%s
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization%s	a-finali.adb		a-finali.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_deallocation%s
+W protocol%s		protocol.adb		protocol.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W wormlevel%s		wormlevel.adb		wormlevel.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-charac.ads		20070912115821 506ce725
+D a-chlat1.ads		20070912115821 e9ee6d0a
+D a-contai.ads		20070406091342 7b35f559
+D a-cdlili.ads		20070814084548 30e80359
+D a-cdlili.adb		20071015135348 09e279f4
+D a-except.ads		20070606104609 ba3e26e2
+D a-finali.ads		20070606101851 9eaacebd
+D a-filico.ads		20051115140645 9299732a
+D a-inteio.ads		20070406091342 03bc737c
+D a-ioexce.ads		20070406091342 be0900a0
+D a-numeri.ads		20070406091342 1cf3e608
+D a-nudira.ads		20061031181603 56734efa
+D a-stream.ads		20061031174905 34aca5be
+D a-string.ads		20070406091342 87b4230b
+D a-strmap.ads		20061031174905 5253a637
+D a-strunb.ads		20061031174905 f0549c04
+D a-tags.ads		20071213102130 e10285b3
+D a-textio.ads		20071213102052 bc6e78fe
+D a-tiinio.ads		20060215092843 949a7272
+D a-unccon.ads		20070406091342 51e09df2
+D a-uncdea.ads		20070406091342 dc667e6d
+D interfac.ads		20051209172227 a69cad5c
+D i-cstrea.ads		20070406092312 e1e064a9
+D protocol.ads		20080123134117 c70b4a33
+D system.ads		20090104141102 e2b32c27
+D s-crtl.ads		20070406092312 ef997abb
+D s-exctab.ads		20070912115821 5c1c61ae
+D s-ficobl.ads		20070814084926 8bb681e5
+D s-finimp.ads		20070606101344 9449f4cb
+D s-finroo.ads		20070814084926 1408f9d1
+D s-imgint.ads		20071213103004 f77d133c
+D s-parame.ads		20070814084525 f32e56e9
+D s-secsta.ads		20070912115821 7bae3621
+D s-soflin.ads		20071213103411 2b67bae6
+D s-stache.ads		20070912115821 257b3be8
+D s-stalib.ads		20070912115821 9ac44ca2
+D s-stoele.ads		20070912115821 1104c881
+D s-stoele.adb		20071213103502 e9998c78
+D s-stratt.ads		20070406092920 b4bf338e
+D s-strops.ads		20070912115821 845f72d2
+D s-sopco3.ads		20070912115821 72ce1063
+D s-sopco4.ads		20070912115821 bc112723
+D s-sopco5.ads		20070912115821 191315e8
+D s-traent.ads		20070912115821 bd5f2753
+D s-unstyp.ads		20070912115821 c0f9fae5
+D s-wchcon.ads		20071213102052 ab028799
+D worm.ads		20080123134117 0136a2f2
+D worm.adb		20090104162404 45d1d32c
+D wormlevel.ads		20080123134117 cba2c1c8
+X 1 ada.ads
+16K9*Ada 19e8 48|1r6 7r43 49|1r6 27r7 31r10 35r13
+X 4 a-contai.ads
+16K13*Containers 22e19 48|1r10 7r47
+X 5 a-cdlili.ads
+45k24*Doubly_Linked_Lists 276e39 48|1w21 7r58
+49R9*List 48|14r22[7]
+106U14*Prepend 49|45r10[48|7]
+125U14*Delete_Last 49|42r13[48|7]
+157V13*First_Element{50|14R9} 49|11r29[48|7]
+161V13*Last_Element{50|14R9} 49|40r24[48|7]
+X 19 a-textio.ads
+50K13*Text_IO 482e16 49|1w10 27r11 31r14 35r17
+265U14*Put_Line 49|27r19 31r22 35r25
+X 25 protocol.ads
+4K9*Protocol 98e13 48|2w17 5r19
+X 48 worm.ads
+4K9*Worm 27l5 27e9 49|4b14 77l5 77t9
+7K12*Worm_Position_Container[5|45] 8r8
+10E9*Worm_State 10e45 18r22
+10n24*Alive{10E9} 18r36
+10n30*Dead{10E9} 49|75r21
+10n35*Observing{10E9}
+12R9*Worm_Type 20e17 21r36
+14r10*Worm_Body{5|49R9[7]} 49|11r48 40r43 42m31 45m23
+15e10*Direction{50|6E9} 49|12r17 55r17 56m29 57m29 58m29 59m29 65r17 66m29
+. 67m29 68m29 69m29
+16i10*Points{natural} 49|36m18 36r33
+17i10*Number{positive} 49|27r83
+18e10*State{10E9} 49|75m12
+19b10*Full{boolean} 49|37m18
+21P9*Worm_Type_Access(12R9) 22r37 24r37 25r37 26r37 49|5r37 53r35 63r36 73r30
+22U14*Update_Worm 22>27 23>27 49|5b14 51l8 51t19
+22p27 Worm{21P9} 49|5b27 11r43 12r12 27r78 32r16 36r13 36r28 37r13 40r38
+. 42r26 45r18
+23p27 Lvl{50|13P9} 49|6b27 29r25 39r24 47r21
+24U14*Turn_Left 24>27 49|53b14 61l8 61t17
+24p27 Worm{21P9} 49|53b25 55r12 56r24 57r24 58r24 59r24
+25U14*Turn_Right 25>27 49|63b14 71l8 71t18
+25p27 Worm{21P9} 49|63b26 65r12 66r24 67r24 68r24 69r24
+26U14*Kill 26>27 49|32r10 73b14 76l8 76t12
+26p27 Worm{21P9} 49|73b20 75r7
+X 49 worm.adb
+7r7 Last_Head_Position{50|14R9} 11m7 14r37 15r36 17r36 18r37 20r37 21r36
+. 23r36 24r37
+8r7 New_Head_Position{50|14R9} 14m13 15m13 17m13 18m13 20m13 21m13 23m13
+. 24m13 29r42 29r63 46r18 48r21
+9e7 New_Head_Field{50|4E9} 29m7 30r10 30r34 34r13 38r16
+X 50 wormlevel.ads
+2K9*Wormlevel 48|2w6 5r8 50|32e14
+4E9*Field 49|9r28 50|4e38
+4n20*Luft{4E9} 49|38r33 41r24
+4n25*Mur{4E9} 49|30r51
+4n29*Kage{4E9} 49|34r30
+4n34*Orm{4E9} 49|30r27 49r21
+5A9*Fields(4E9)<integer><integer>
+6E9*Course 48|15r22 50|6e45
+6n20*North{6E9} 48|15r33 49|13r15 56r15 57r42 66r15 69r42
+6n27*East{6E9} 49|16r15 57r15 58r42 66r42 67r15
+6n33*South{6E9} 49|19r15 58r15 59r42 67r42 68r15
+6n40*West{6E9} 49|22r15 56r42 59r15 68r42 69r15
+11a10*Field_value{5A9} 49|29m29
+13P9*Level_Access(7R9) 48|23r37 49|6r37
+14R9*Position 48|7r78 49|7r28 8r28 50|18e17
+16i10*X{positive} 49|14m31 14r56 17m31 17r55 20m31 20r56 23m31 23r55 29r60
+17i10*Y{positive} 49|15m31 15r55 18m31 18r56 21m31 21r55 24m31 24r56 29r81
+29U14*Set_Field 49|39r13 47r10
+

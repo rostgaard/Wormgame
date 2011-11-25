@@ -1,0 +1,404 @@
+V "GNAT Lib v4.3"
+A -O3
+A -fstack-check
+A -gnat05
+A -gnat05
+A -gnatE
+A -gnato
+A -gnatv
+A -gnati1
+A -gnatf
+A -gnatA
+P SS ZX
+R nnnvnnvvvvnnnnnvvnvnvnvvnnvnvnvnnnnvnvvvnvnnnvnnnnnnnnvnvnnnnnv5nv7nv1+nnnnnn
+
+U handlers%b		handlers.adb		59bbda2f DE PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.containers.doubly_linked_lists%s
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W interfaces%s		interfac.ads		interfac.ali
+W stream_shortcuts%s	stream_shortcuts.adb	stream_shortcuts.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W system.string_ops_concat_3%s  s-sopco3.adb	s-sopco3.ali
+
+U handlers%s		handlers.ads		c89a3b3b DE EE PK
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.containers.doubly_linked_lists%s
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.tags%s		a-tags.adb		a-tags.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.sockets%s	g-socket.adb		g-socket.ali
+W protocol%s		protocol.adb		protocol.ali
+W stream_shortcuts%s	stream_shortcuts.adb	stream_shortcuts.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+W system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W user%s		user.adb		user.ali
+W worm%s		worm.adb		worm.ali
+W wormlevel%s		wormlevel.adb		wormlevel.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-calend.ads		20070912131154 e18fa1bf
+D a-caldel.ads		20050905080700 c565f6eb
+D a-charac.ads		20070912115821 506ce725
+D a-chlat1.ads		20070912115821 e9ee6d0a
+D a-contai.ads		20070406091342 7b35f559
+D a-cdlili.ads		20070814084548 30e80359
+D a-cdlili.adb		20071015135348 09e279f4
+D a-except.ads		20070606104609 ba3e26e2
+D a-finali.ads		20070606101851 9eaacebd
+D a-filico.ads		20051115140645 9299732a
+D a-inteio.ads		20070406091342 03bc737c
+D a-ioexce.ads		20070406091342 be0900a0
+D a-numeri.ads		20070406091342 1cf3e608
+D a-nudira.ads		20061031181603 56734efa
+D a-stream.ads		20061031174905 34aca5be
+D a-string.ads		20070406091342 87b4230b
+D a-strbou.ads		20061031174905 58efc6ae
+D a-strmap.ads		20061031174905 5253a637
+D a-strsup.ads		20051115140645 9dd84fea
+D a-strunb.ads		20061031174905 f0549c04
+D a-tags.ads		20071213102130 e10285b3
+D a-textio.ads		20071213102052 bc6e78fe
+D a-tiinio.ads		20060215092843 949a7272
+D a-unccon.ads		20070406091342 51e09df2
+D a-uncdea.ads		20070406091342 dc667e6d
+D ada_streams.ads	20060522061446 915bf429
+D generic_memory_mapped_arrays.ads  20080123134117 42964f28
+D gnat.ads		20050905075125 96410e68
+D g-socket.ads		20090104134958 0a32cee8
+D handlers.ads		20080123134117 0d57f985
+D handlers.adb		20090104162527 a03f94e4
+D interfac.ads		20051209172227 a69cad5c
+D i-c.ads		20070406091342 bc3ef662
+D i-cstrea.ads		20070406092312 e1e064a9
+D posix.ads		20081012210111 6e44b47d
+D posix-c.ads		20081012210111 29a9a08b
+D posix-io.ads		20060522061445 5e81f032
+D posix-permissions.ads	20060522061445 119de239
+D posix-process_identification.ads  20060522061445 835ee1af
+D protocol.ads		20080123134117 c70b4a33
+D stream_shortcuts.ads	20080123134117 8bbd2391
+D system.ads		20090104141102 e2b32c27
+D s-atacco.ads		20061031181603 60789a20
+D s-crtl.ads		20070406092312 ef997abb
+D s-exctab.ads		20070912115821 5c1c61ae
+D s-ficobl.ads		20070814084926 8bb681e5
+D s-finimp.ads		20070606101344 9449f4cb
+D s-finroo.ads		20070814084926 1408f9d1
+D s-osinte.ads		20071213101844 d8d17ef4
+D s-parame.ads		20070814084525 f32e56e9
+D s-secsta.ads		20070912115821 7bae3621
+D s-soflin.ads		20071213103411 2b67bae6
+D s-stache.ads		20070912115821 257b3be8
+D s-stausa.ads		20071213103435 653209dc
+D s-stalib.ads		20070912115821 9ac44ca2
+D s-stoele.ads		20070912115821 1104c881
+D s-stoele.adb		20071213103502 e9998c78
+D s-stratt.ads		20070406092920 b4bf338e
+D s-strops.ads		20070912115821 845f72d2
+D s-sopco3.ads		20070912115821 72ce1063
+D s-sopco4.ads		20070912115821 bc112723
+D s-sopco5.ads		20070912115821 191315e8
+D s-tasinf.ads		20071213101844 268f0cd4
+D s-taspri.ads		20050905074606 5ce832d1
+D s-taskin.ads		20070814085009 07168b8a
+D s-taprob.ads		20061031181144 5e00115c
+D s-tpoben.ads		20070606101344 af64fa42
+D s-tpobop.ads		20070814085009 ccd38b83
+D s-tasren.ads		20070814085009 5bda31d2
+D s-tassta.ads		20070406091910 93202c70
+D s-traent.ads		20070912115821 bd5f2753
+D s-unstyp.ads		20070912115821 c0f9fae5
+D s-wchcon.ads		20071213102052 ab028799
+D unchconv.ads		20070406091342 34860a55
+D user.ads		20080123134117 527327bc
+D worm.ads		20080123134117 0136a2f2
+D wormlevel.ads		20080123134117 cba2c1c8
+X 1 ada.ads
+16K9*Ada 19e8 31|2r6 6r6 7r6 32|1r6 2r6 2r18 4r6 7r8 27r10 38r12 39r12 40r12
+. 43r9 46r10 47r10 47r27 48r10 65r10 83r16 86r22 92r22 100r25 103r25 106r22
+. 111r22 114r22 119r16 126r25 129r25 130r25 134r25 135r25 136r25 139r25 140r25
+. 142r25 147r25 148r25 149r25 159r16 164r16 169r7 173r10 174r10 174r32 187r10
+. 196r10 198r13 202r16 216r16 225r13 227r13 230r13 235r7 238r10 239r10 239r32
+. 252r10 260r13 263r16 267r16 271r16 274r16 277r10 279r10 283r10 284r10 284r32
+. 303r16 304r16 305r16 318r7 320r7 324r10 325r10 326r10 345r10 346r10 346r32
+. 364r16 368r7 388r10 392r7 395r7 406r10 411r10 417r10 424r7 437r22 471r22
+. 480r7 485r7 489r10 490r10 490r32
+X 6 a-contai.ads
+16K13*Containers 22e19 31|6r10 32|1r10
+20I9*Count_Type<integer>
+X 7 a-cdlili.ads
+45k24*Doubly_Linked_Lists 276e39 31|6w21 32|1w21
+49R9*List
+61V13*Length{6|20I9} 32|468r77[77|7]
+106U14*Prepend 32|407r10[77|7]
+157V13*First_Element{78|14R9} 32|468r27[77|7]
+X 9 a-except.ads
+59K13*Exceptions 362e19 31|2w10 32|47r31 174r36 239r36 284r36 346r36 490r36
+81V13*Exception_Name{string} 32|47r42 174r47 239r47 284r47 346r47 490r47
+X 12 a-inteio.ads
+18K13*Integer_Text_IO[24|47] 32|2w22 129r29 135r29 140r29 148r29 304r20 325r14
+X 14 a-numeri.ads
+16K13*Numerics 32e17 31|7r10
+X 15 a-nudira.ads
+52k22*Discrete_Random 116e33 31|7w19
+X 17 a-string.ads
+16K13*Strings 35e16 32|4r10 7r12
+X 21 a-strunb.ads
+41K21*Unbounded 430e26 32|4w18 7r20
+65V13*To_String{string} 32|199r34 200r34 203r37 209r52 213r28 214r34 217r37
+. 223r52
+X 23 a-textio.ads
+50K13*Text_IO 482e16 32|2w10 27r14 38r16 39r16 40r16 43r13 46r14 47r14 48r14
+. 65r14 83r20 86r26 92r26 100r29 103r29 106r26 111r26 114r26 119r20 126r29
+. 130r29 134r29 136r29 139r29 142r29 147r29 149r29 159r20 164r20 169r11 173r14
+. 174r14 187r14 196r14 198r17 202r20 216r20 225r17 227r17 230r17 235r11 238r14
+. 239r14 252r14 260r17 263r20 267r20 271r20 274r20 277r14 279r14 283r14 284r14
+. 303r20 305r20 318r11 320r11 324r14 326r14 345r14 346r14 364r20 368r11 388r14
+. 392r11 395r11 406r14 411r14 417r14 424r11 437r26 471r26 480r11 485r11 489r14
+. 490r14
+75I12*Field{integer}
+168U14*New_Line 32|40r24 130r37 136r37 142r37 149r37 305r28 326r22
+244U14*Put 32|38r24 39r24 43r21 46r22 47r22 126r37 134r37 139r37 173r22 225r25
+. 238r22 283r22 303r28 324r22 345r22 489r22
+265U14*Put_Line 32|27r22 48r22 65r22 83r28 86r34 92r34 100r37 103r37 106r34
+. 111r34 114r34 119r28 147r37 159r28 164r28 169r19 174r22 187r22 196r22 198r25
+. 202r28 216r28 227r25 230r25 235r19 239r22 252r22 260r25 263r28 267r28 271r28
+. 274r28 277r22 279r22 284r22 318r19 320r19 346r22 364r28 368r19 388r22 392r19
+. 395r19 406r22 411r22 417r22 424r19 437r34 471r34 480r19 485r19 490r22
+X 24 a-tiinio.ads
+67U14*Put 32|129r45[12|18] 135r45[12|18] 140r45[12|18] 148r45[12|18] 304r36[12|18]
+. 325r30[12|18]
+69i7 Width{23|75I12} 32|129r62[12|18] 135r62[12|18] 140r62[12|18] 148r62[12|18]
+. 325r37[12|18]
+X 29 gnat.ads
+36K9*GNAT 39e9 31|3r6 11r8
+X 30 g-socket.ads
+58K14*Sockets 1094e17 31|3w11 11r13
+389I9*Socket_Type 31|28r35 87r32 32|17r19 26r36 60r33 69r33
+771U14*Close_Socket 32|170r7
+886P9*Stream_Access(16|41R9) 32|18r19 59r33
+889V13*Stream{886P9} 32|29r23 71r21
+X 31 handlers.ads
+10K9*Handlers 97l5 97e13 32|6b14 16r19 23r24 492l5 492t13
+14T9*Input_Handler 15r40 32|23r33
+15P9*Input_Handler_Access(14T9) 20r23 36r36 41r34 47r34 53r34 59r35 86r36
+. 32|16r28 56r33 64r37 182r21 186r35 247r21 251r35 301r42 359r42
+18R9*Player_Type 22e17 24r45 32|308r38
+20p10*IO_Handler{15P9} 32|310m31 327m21 334m21 400m21 403m21 404m21 418m21
+. 452m27 466m37 482m21 483m21
+21p10*Worm{77|21P9} 32|329m21 330m21 331m21 334m55 407m29 407m86 432m27 434r43
+. 440m30 442m27 446m27 447r40 455m27 468m52 468m96
+24A9*Players(18R9)<integer> 66r28 32|291r22 377r20 385r29
+27T14*Socket_Listener 29l8 29e23 30r42 32|15b14 50l8 50t23
+28Y13 Attach_Socket 28>28 32|26b14 30l11 30t24
+28i28 S{30|389I9} 32|28r23
+30P9*Socket_Listener_Access(27T14)
+32E9*Client_States 32e81 88r38 32|58r33 82r44 183r21 248r21
+32n27*Not_Logged_In{32E9} 32|58r50 183r38 191r27
+32n42*Logged_In{32E9} 32|85r24 89r39 207r31 221r31 248r38 256r27 482r46
+32n53*In_Queue{32E9} 32|97r24 105r39 264r31
+32n63*In_Game{32E9} 32|110r24 112r39 121r36 327r46
+32n72*Quitting{32E9} 32|80r30 91r24 94r39 144r42 160r33 228r28 272r31
+34h9*Command_Handler 35p14 35r42 37p14 37r35 40r32 46r36 52r32 65r31 84r46
+. 32|57r40
+35U14*Attach_Parent 35=29 36>29 32|78R31 88R46
+35r29 Obj{34R9}
+36p29 P{15P9}
+37U14*Handle 37=22 38>22 32|122R43
+37r22 Obj{34R9}
+38r22 R{41|41R9}
+40T14*Login_Task 43l8 43e18 32|75r38 181b14 240l8 240t18
+41Y12 Attach_Parent 41>27 32|186b14 189l11 189t24
+41p27 P{15P9} 32|188r20
+42Y12 Handle 42>20 32|192b17 194l14 194t20
+42r20 R{41|41R9} 32|193r24
+46T14*Logged_In_Task 49l8 49e22 32|87r53 246b14 285l8 285t22
+47Y12 Attach_Parent 47>27 32|251b14 254l11 254t24
+47p27 P{15P9} 32|253r20
+48Y12 Handle 48>20 32|257b17 259l14 259t20
+48r20 R{41|41R9} 32|258r24
+52T14*Queue_Task 55l8 55e18 32|98r53 355b14 369l8 369t18
+53Y12 Attach_Parent 53>27 32|359b20 361l17 361t30
+53p27 P{15P9}
+54Y12 Handle 54>20 32|363b20 365l17 365t23
+54r20 R{41|41R9}
+58T14*Game_Queue 60l8 60e18 61r32 32|101r45 290b14 347l8 347t18
+59Y13 Attach_Parent 59>28 32|107r35 301b20 312l17 312t30
+59p28 P{15P9} 32|310r45
+61P9*Queue_Access(58T14) 32|9r19
+65T14*Game_Task 35p14 37p14 68l8 68e17 70r36 32|321r19 375b14 491l8 491t17
+66Y12 Clients 66>21 66>37 32|338r12 385b14 389l11 389t18
+66a21 P{24A9} 32|386r20
+66i37 Idx{natural} 32|387r20
+70P9*Game_Task_Access(65T14) 32|294r22
+84P9*Command_Handler_Access(34R9)
+85T14*Input_Handler 93l8 93e21 32|55b14 175l8 175t21
+86Y13 Self_Reference 86>29 32|24r17 64b14 67l11 67t25
+86p29 R{15P9} 32|66r18
+87Y13 Attach_Socket 87>28 32|32r17 69b14 72l11 72t24
+87i28 S{30|389I9} 32|70r21
+88Y13 Change_State 88>27 32|82b20 116l17 116t29 234r14 278r17 327r32 482r32
+88e27 State{32E9} 32|84r21
+89Y13 Receive 89>22 32|41r20 118b20 152l17 152t24
+89r22 R{41|41R9} 32|122r50 124r24
+90Y13 Send 90>18 32|154b20 156l17 156t21 209r23 223r23 268r23 400r32 403r32
+. 404r32 418r32 452r38 466r48 483r32
+90s18 Msg{string} 32|155r38
+91Y13 Log_Out 32|49r18 158b20 161l17 161t24
+92Y13 Attach_Worm 92>26 32|163b20 166l17 166t28 334r32
+92p26 W{77|21P9} 32|165r24
+X 32 handlers.adb
+9p4 Global_Queue{31|61P9} 99r25 101m25 107r22
+10b4 Queue_Closed{boolean} 13r18 99r48 298m7 341m7
+16p9 Handler{31|15P9} 23m9 24r9 24r33 32r9 41r12 49r10
+17i9 Socket{30|389I9} 28m12 29r30 32r32
+18p9 Channel{30|886P9} 29m12 34r49
+19a9 Buffer{string} 35m48 37r32 37r40 39r29 39r37
+20i9 Filled{natural} 36m49 37r56 39r53
+21r9 Request{41|41R9} 37m65 41r28
+26i29 S{30|389I9}
+45r12 E{9|72R9} 47r57
+56p7 Self{31|15P9} 66m10 78r45 88r60 107r49
+58e7 Current_State{31|32E9} 80r13 89m22 94m22 105m22 112m22 121r19 144m25
+. 160m16
+59p7 Channel{30|886P9} 71m10 155r30
+60i7 Socket{30|389I9} 70m10 71r28 170r20
+61p7 Worm{77|21P9} 127r35 129r49 133r36 135r49 140r49 141r30 148r49 165m16
+64p30 R{31|15P9}
+69i29 S{30|389I9}
+82e33 State{31|32E9}
+118r29 R{41|41R9}
+154s26 Msg{string}
+163p33 W{77|21P9}
+172r12 E{9|72R9} 174r62
+182p7 Parent{31|15P9} 188m10 209r16 223r16 234r7
+183e7 Local_State{31|32E9} 191r13 207m16 221m16 228m13 234r27
+184r7 Request{41|41R9} 193m13 197r13 199r44 200r44 203r47 209r63 212r16 213r38
+. 214r44 217r47 223r63 226r16
+186p28 P{31|15P9}
+192r25 R{41|41R9}
+237r12 E{9|72R9} 239r62
+247p7 Parent{31|15P9} 253m10 268r16 278r10
+248e7 Local_State{31|32E9} 256r13 264m16 272m16 278r30
+249r7 Request{41|41R9} 258m13 262r16 266r19 270r19
+251p28 P{31|15P9}
+257r25 R{41|41R9}
+281r12 E{9|72R9} 284r62
+291a7 Player{31|24A9} 308m16 310r16 327r10 327r21 329r10 330r10 331r10 334r10
+. 334r21 334r45 338r20
+292i7 Index{natural} 302m16 302r45 304r40 308r24 310r24 323r21 338r27
+293b7 Start{boolean} 299r17 315m13
+294p7 Game{31|70P9} 321m7 338r7
+301p35 P{31|15P9}
+323i11 I{integer} 325r34 327r18 329r18 330r18 331r18 331r36 334r18 334r52
+343r12 E{9|72R9} 346r62
+359p35 P{31|15P9}
+363r28 R{41|41R9}
+377a7 Player{31|24A9} 386m10 400r10 400r21 403r10 403r21 404r10 404r21 407r18
+. 407r75 418r10 418r21 432r16 434r32 440r19 442r16 446r16 447r29 452r16 452r27
+. 455r16 466r19 466r37 468r41 468r85 482r10 482r21 483r10 483r21
+378i7 Index{positive} 387m10 399r21 426r33 429r24 464r34 481r21
+379p7 The_Level{78|13P9} 393m7 394r14 396r25 400r58 401r58 403r65 407r65
+. 412r58 413r21 434r48 447r45 448r64 449r27
+380i7 Death_Toll{natural} 426r20 441m16 441r30
+382r7 Temporary_Cake_Position{78|14R9} 412m10 414r21 418r60 448m16 450r27
+. 452r66
+385a22 P{31|24A9}
+385i38 Idx{natural}
+399i11 I{integer} 400r18 403r18 404r18 404r58 407r26 407r83 418r18
+429i14 I{integer} 432r24 434r40 440r27 442r24 446r24 447r37 452r24 455r24
+. 468r24 468r49 468r93
+464i17 Receiver{integer} 466r27
+481i11 I{integer} 482r18 483r18
+487r12 E{9|72R9} 490r62
+X 41 protocol.ads
+4K9*Protocol 31|1w6 5w6 12r8 32|21r19 37r12 209r29 223r29 268r28 400r38 403r38
+. 404r38 418r37 452r43 467r22 483r38 41|98e13
+13n31*New_User{13E9} 32|212r34
+14n31*Log_In{13E9} 32|197r31
+15n31*Log_Out{13E9} 32|138r27 226r34 270r37
+16n31*Join_Game{13E9} 32|262r34
+17n31*Turn_Left{13E9} 32|125r27
+18n31*Turn_Right{13E9} 32|132r27
+19n31*Request_Highscore{13E9} 32|266r37
+38A9*Arguments(21|44R9)<integer>
+41R9*Client_Request 31|38r35 42r27 48r27 54r27 89r29 32|21r28 118r36 184r21
+. 192r32 249r21 257r32 363r35 41|45e17
+43e10*Command{34E12} 32|124r26 197r21 212r24 226r24 262r24 266r27 270r27
+44a10*Argument{38A9} 32|199m52 200m52 203m55 209m71 213m46 214m52 217m55
+. 223m71
+76U14*Parse_Line 32|37r21
+82V13*Accept_Login{string} 32|209r38 223r38
+83V13*Send_Level{string} 32|400r47
+84V13*Blocked_Positions{string} 32|403r47
+85V13*Cake_Position{string} 32|418r46 452r52
+87V13*Start_Game{string} 32|404r47
+88V13*Worm_State{string} 32|467r31
+93V13*Game_Over{string} 32|483r47
+94V13*Highscore{string} 32|268r37
+X 42 stream_shortcuts.ads
+3K9*Stream_Shortcuts 31|4w6 32|3w6 34r12 42|26e21
+10U14*Get_Line 32|34r29
+10p24 Source(16|41R9) 32|34r39
+11s24 Item{string} 32|35r38
+12i24 Last{natural} 32|36r39
+X 76 user.ads
+7K9*User 31|5w15 32|199r16 213r16 76|31e9
+29V13*Authenticate{boolean} 32|199r21
+30V13*Create{boolean} 32|213r21
+X 77 worm.ads
+4K9*Worm 31|5w30 12r27 77|27e9
+7K12*Worm_Position_Container[7|45] 32|376r11
+10n24*Alive{10E9} 32|432r40
+10n30*Dead{10E9} 32|440r43
+10n35*Observing{10E9} 32|442r41
+12R9*Worm_Type 32|329r33 77|20e17
+14r10*Worm_Body{7|49R9[7]} 32|407m34 468r57 468r101
+15e10*Direction{78|6E9} 32|330m26 407r91
+17i10*Number{positive} 32|129r54 135r54 140r54 148r54 331m26
+18e10*State{10E9} 32|432r32 440r35 442m32
+19b10*Full{boolean} 32|446r32 455m32
+21P9*Worm_Type_Access(12R9) 31|21r23 92r33 32|61r33 163r40
+22U14*Update_Worm 32|434r19 447r16
+24U14*Turn_Left 32|127r25
+25U14*Turn_Right 32|133r25
+26U14*Kill 32|141r25
+X 78 wormlevel.ads
+2K9*Wormlevel 31|5w20 12r17 78|32e14
+4n29*Kage{4E9} 32|415r21 451r27
+7R9*Level 32|393r24 78|12e17
+9i10*Number_Of_Cols{positive} 32|400r68
+10i10*Number_Of_Rows{positive} 32|401r68
+13P9*Level_Access(7R9) 32|379r20
+14R9*Position 32|382r33 78|18e17
+21U14*Empty 32|394r7
+23U14*Put_Walls_Around 32|396r7
+25V13*Random_Course{6E9} 32|330r39
+26V13*Random_Worm_Position{14R9} 32|407r44
+28V13*Random_Cake_Position{14R9} 32|412r37 448r43
+29U14*Set_Field 32|413r10 449r16
+

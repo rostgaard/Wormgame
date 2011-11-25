@@ -1,0 +1,248 @@
+V "GNAT Lib v4.3"
+A -O3
+A -fstack-check
+A -gnat05
+A -gnatE
+A -gnato
+A -gnatv
+A -gnati1
+A -gnatf
+A -gnatA
+P SS ZX
+R nnnnnnnnnnnnnnnnnnvnnnnnnnnnvnnnnnnnnnnvnnnnnnnnnnnnnvvnnvnnnnnnnnnnnnnnn
+
+U generic_memory_mapped_arrays%b  generic_memory_mapped_arrays.adb  74f5a9a4 DE NE PK GE
+W ada%s			ada.ads			ada.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W eup%s			eup.ads			eup.ali
+W eup.text_io%s		eup-text_io.adb		eup-text_io.ali
+W posix%s		posix.adb		posix.ali
+W posix.files%s		posix-files.adb		posix-files.ali
+W posix.memory_mapping%s  posix-memory_mapping.adb  posix-memory_mapping.ali
+W system%s		system.ads		system.ali
+W system.address_to_access_conversions%s
+
+U generic_memory_mapped_arrays%s  generic_memory_mapped_arrays.ads  0d13779b BN DE EE NE PK GE
+W posix%s		posix.adb		posix.ali
+W posix.io%s		posix-io.adb		posix-io.ali
+W system%s		system.ads		system.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-calend.ads		20070912131154 e18fa1bf
+D a-charac.ads		20070912115821 506ce725
+D a-chlat1.ads		20070912115821 e9ee6d0a
+D a-except.ads		20070606104609 ba3e26e2
+D a-finali.ads		20070606101851 9eaacebd
+D a-filico.ads		20051115140645 9299732a
+D a-ioexce.ads		20070406091342 be0900a0
+D a-stream.ads		20061031174905 34aca5be
+D a-string.ads		20070406091342 87b4230b
+D a-strmap.ads		20061031174905 5253a637
+D a-strunb.ads		20061031174905 f0549c04
+D a-tags.ads		20071213102130 e10285b3
+D a-unccon.ads		20070406091342 51e09df2
+D ada_streams.ads	20060522061446 915bf429
+D calendar.ads		20070406091342 81c96233
+D eup.ads		20080123134117 93cfd1c0
+D eup-text_io.ads	20080123134117 9183653e
+D generic_memory_mapped_arrays.ads  20080123134117 42964f28
+D generic_memory_mapped_arrays.adb  20080123134117 1b5f688d
+D interfac.ads		20051209172227 a69cad5c
+D posix.ads		20081012210111 6e44b47d
+D posix-c.ads		20081012210111 29a9a08b
+D posix-calendar.ads	20060522061445 9fd79a6f
+D posix-files.ads	20060522061445 fc921803
+D posix-io.ads		20060522061445 5e81f032
+D posix-memory_mapping.ads  20060522061445 9e5c69bc
+D posix-permissions.ads	20060522061445 119de239
+D posix-process_identification.ads  20060522061445 835ee1af
+D system.ads		20080906161940 e2b32c27
+D s-atacco.ads		20061031181603 60789a20
+D s-atacco.adb		20050701012917 7bf357a2
+D s-exctab.ads		20070912115821 5c1c61ae
+D s-finimp.ads		20070606101344 9449f4cb
+D s-finroo.ads		20070814084926 1408f9d1
+D s-parame.ads		20070814084525 f32e56e9
+D s-secsta.ads		20070912115821 7bae3621
+D s-soflin.ads		20071213103411 2b67bae6
+D s-stache.ads		20070912115821 257b3be8
+D s-stalib.ads		20070912115821 9ac44ca2
+D s-stoele.ads		20070912115821 1104c881
+D s-stoele.adb		20071213103502 e9998c78
+D s-stratt.ads		20070406092920 b4bf338e
+D s-traent.ads		20070912115821 bd5f2753
+D s-unstyp.ads		20070912115821 c0f9fae5
+D unchconv.ads		20070406091342 34860a55
+X 1 ada.ads
+16K9*Ada 19e8 20|1r6 45r16 87r22 106r16 122r16 131r16 156r16 173r16 190r16
+. 208r16 220r16 262r16
+X 8 a-ioexce.ads
+16K13*IO_Exceptions 28e22 20|1w10 45r20 87r26 106r20 122r20 131r20 156r20
+. 173r20 190r20 208r20 220r20 262r20
+19X4*Status_Error 20|45r34 106r34 122r34 131r34 156r34 173r34 190r34 208r34
+. 220r34
+22X4*Use_Error 20|87r40 262r34
+X 17 eup.ads
+3K9*EUP 7e8 20|3r6 48r13 52r13
+4A12*Ada_String{string}<integer>
+X 18 eup-text_io.ads
+7K13*Text_IO 89e16 20|3w10 48r17 52r17
+8I12*File_Type{26|49I9}
+17U14*Create 20|52r25
+17i22 File{8I12} 20|52r33
+18e22 Mode{9E12} 20|54r33
+19a22 Name{17|4A12} 20|53r33
+30U14*Open 20|48r25
+30i20 File{8I12} 20|48r31
+31e20 Mode{9E12} 20|50r31
+32a20 Name{17|4A12} 20|49r31
+X 19 generic_memory_mapped_arrays.ads
+4+9 Element_Type 6r58 7r20 20r58 27r47 20|18r14 136r58 179r47 216r54
+5E9 Index_Range 6r33 16r52 17r51 20r38 22r36 23r36 26r47 29r45 30r45 34r40
+. 42r27 42r47 20|27r39 29r14 30r14 30r31 33r59 35r14 35r36 35r53 60r57 86r29
+. 117r52 120r17 126r51 136r38 145r19 161r36 162r36 166r65 178r47 183r65 195r45
+. 196r45 201r65 213r40 260r23
+6A9 Element_Array(4+9)<5E9> 23r61 31r45 20|144r53 162r61 166r50 183r50 197r45
+. 201r50
+7*4 Default_Value{4+9} 20|235r25
+8k9*Generic_Memory_Mapped_Arrays 4z9 5z9 6z9 7z4 44l5 44e33 20|5b14 265l5
+. 265t33
+9R9*File_Type 11r36 13r36 14r36 16r34 17r33 19r38 21r36 25r47 28r45 33r40
+. 36c9 20|39r34 95r36 110r36 117r34 126r33 135r38 160r36 177r47 194r45 212r40
+11U14*Open 11=22 12>22 20|39b14 93l8 93t12
+11r22 File{9R9} 20|39b20 44r10 48m39 52m41 61r54 63m13 64m13 67r13 68m13
+. 69m13 74m16 75r44 78r44 82r16 83r32 84m16 85m16 86m16 89m16
+12s22 Name{string} 20|40b20 47r65 49r39 53r41
+13U14*Close 13=22 20|95b14 108l8 108t13
+13r22 File{9R9} 20|95b22 98r10 99r13 100r58 101r58 103r34 104m10
+14V13*Is_Open{boolean} 14>22 20|110b13 115l8 115t15
+14r22 File{9R9} 20|110b22 114r14
+16V13*First{5E9} 16>20 20|117b13 124l8 124t13
+16r20 File{9R9} 20|117b20 119r10
+17V13*Last 17>19 20|126b13 133l8 133t12
+17r19 File{9R9} 20|126b19 128r10 129r17
+19V13*Element{4+9} 19>22 20>22 20|135b13 158l8 158t15
+19r22 Source{9R9} 20|135b22 139r10 140r13 145r40 150r42
+20*22 Index{5E9} 20|136b22 152r29
+21V13*Slice{6A9} 21>20 22>20 23>20 20|160b13 175l8 175t13
+21r20 Source{9R9} 20|160b20 164r10 166r86 168r83
+22*20 Low{5E9} 20|161b20 170r26
+23*20 High 20|162b20 170r33
+25U14*Replace_Element 25=31 26>31 27>31 20|177b14 192l8 192t23
+25r31 Source{9R9} 20|177b31 181r10 183r86 185r83
+26*31 Index{5E9} 20|178b31 187r19
+27*31 By{4+9} 20|179b31 187r29
+28U14*Replace_Slice 28=29 29>29 30>29 31>29 20|194b14 210l8 210t21
+28r29 Source{9R9} 20|194b29 199r10 201r86 203r83
+29*29 Low{5E9} 20|195b29 205r19
+30*29 High 20|196b29 205r26
+31*29 By{6A9} 20|197b29 205r35
+33U14*Resize 33=22 34>22 20|212b14 264l8 264t14
+33r22 File{9R9} 20|212b22 219r14 223r10 224r55 225r55 228r32 229r67 233r25
+. 234r25 238m7 239m7 241r10 242m10 247m13 248r41 251r41 256r10 257r26 258m10
+. 259m10 260m10 261m10
+34*22 New_Last{5E9} 20|213b22 233r59 238r45 239r20
+38b10 Open{boolean} 20|44r15 69m18 89m21 98r15 104m15 114r19 119r15 128r15
+. 139r17 164r17 181r17 199r17 219r19 261m15
+39i10 POSIX_File{26|49I9} 20|48m44 52m46 61r59 78r49 83r37 103r39 228r37
+. 233r30 234r30 251r46 257r31
+40i10 Allocated_Size{41|58I9} 20|63m18 67r18 75r49 84m21 101r63 225r60 238m12
+. 241r15 248r46 258m15
+41m10 Mapped_Address{30|66M9} 20|68m18 74m21 82r21 85m21 99r18 100r63 140r20
+. 150r49 168r90 185r90 203r90 223r15 224r60 242m15 247m18 256r15 259m15
+42*10 Last 20|64m18 86m21 129r22 145r47 166r93 183r93 201r93 229r72 239m12
+. 260m15
+X 20 generic_memory_mapped_arrays.adb
+6V13 "*"{41|58I9} 6b13 6>18 7>18 12l8 12t11 63r49 229r78 238r55
+6i18 Left{natural} 11r54
+7i18 Right{41|58I9} 11r62
+14V13 Storage_Per_Element{41|58I9} 14b13 19l8 19t27 24r56 63r51 230r52 238r57
+21V13 Records_In{natural} 21b13 21>25 25l8 25t18 61r42 233r13
+21i25 File{26|49I9} 24r38
+27V13 Records_Up_To{natural} 27b13 27>28 31l8 31t21 60r42 229r52 233r44 238r30
+27*28 Index 29r36
+33V13 Last_Index 33b13 33>25 37l8 37t18 64r26
+33i25 Record_Count{natural} 36r36
+58i13 Record_Count{natural} 60m13 63r36 64r38
+144A24 Constrained_Element_Array{19|6A9}<19|5E24> 148r29
+146K24 Conversions[31|41] 149r32 150r18
+149p16 Data{31|61P9[146]} 152r23
+166A21 Constrained_Element_Array{19|6A9}<19|5E24> 167r88
+167K21 Conversions[31|41] 168r29 168r59
+168p13 Data{31|61P9[167]} 170r20
+183A21 Constrained_Element_Array{19|6A9}<19|5E24> 184r88
+184K21 Conversions[31|41] 185r29 185r59
+185p13 Data{31|61P9[184]} 187m13
+201A21 Constrained_Element_Array{19|6A9}<19|5E24> 202r88
+202K21 Conversions[31|41] 203r29 203r59
+203p13 Data{31|61P9[202]} 205m13
+216U17 Write[26|161] 234r10
+217i7 New_Position{26|57I9} 231m32
+X 22 posix.ads
+43K9*POSIX 19|1r6 39r27 20|1r25 1r38 21r35 24r18 47r13 47r42 50r39 54r41
+. 72r20 83r16 100r13 103r10 216r30 217r22 224r10 228r7 229r32 245r17 257r10
+. 22|640e10
+71I9*IO_Count<integer>
+145E9*POSIX_Character<character>
+183A9*POSIX_String(145E9)<integer>
+184V13*To_POSIX_String{183A9} 20|47r48
+216V13*"+"{214R9} 20|76r55 249r52
+X 23 posix-c.ads
+418I9*off_t<integer>
+X 25 posix-files.ads
+43K15*Files 20|1w31 47r19 25|128e16
+121V13*Is_File_Present{boolean} 20|47r25
+X 26 posix-io.ads
+47K15*IO 19|1w12 39r33 20|21r41 24r24 50r45 54r47 83r22 103r16 216r36 217r28
+. 228r13 229r38 257r16 26|272e13
+49I9*File_Descriptor<integer> 19|39r36 20|21r44
+57I9*IO_Offset<23|418I9> 20|217r31 229r41
+61n46*Read_Write{61E9} 20|50r48 54r50
+95U14*Close 20|83r25 103r19 257r19
+96i7 File{49I9} 20|103r26
+161u14*Generic_Write 20|216r39
+162i7 File{49I9} 20|234r17[216]
+163*7 Item{19|4+9} 20|235r17[216]
+171U14*Seek 20|228r16
+172i7 File{49I9} 20|228r22
+173i7 Offset{57I9} 20|229r22
+174i7 Result{57I9} 20|231r22
+176V13*File_Size{22|71I9} 20|24r27
+X 27 posix-memory_mapping.ads
+44K15*Memory_Mapping 20|1w44 72r26 100r19 224r16 245r23 27|121e25
+48R9*Protection_Options<22|214R9>
+49r4*Allow_Read{48R9} 20|76r44 249r41
+50r4*Allow_Write{48R9} 20|76r57 249r54
+53R9*Mapping_Options<22|214R9>
+54r4*Map_Shared{53R9} 20|77r44 250r41
+71V13*Map_Memory{30|66M9} 20|75r18 248r15
+72i7 Length{41|58I9} 20|75r30 248r27
+73r7 Protection{48R9} 20|76r30 249r27
+74r7 Mapping{53R9} 20|77r30 250r27
+75i7 File{26|49I9} 20|78r30 251r27
+76i7 Offset{22|71I9} 20|79r30 252r27
+79U14*Unmap_Memory 20|100r34 224r31
+80m7 First{30|66M9} 20|100r48 224r45
+81i7 Length{41|58I9} 20|101r48 225r45
+X 30 system.ads
+39K9*System 19|1r16 40r27 41r27 41r45 20|1r60 7r33 8r24 9r16 11r14 15r13
+. 16r16 18r34 41r16 42r16 68r36 82r38 85r39 96r16 99r36 111r16 112r16 137r16
+. 140r37 147r23 167r40 184r40 202r40 214r16 215r16 223r33 242r33 256r32 259r33
+. 30|155e11
+66M9*Address 19|41r34 20|41r23 96r23 111r23 137r23 214r23
+68m4*Null_Address{66M9} 19|41r52 20|68r43 82r45 85r46 99r43 140r44 223r40
+. 242r40 256r39 259r40
+80V13*"="{boolean} 20|82r36 99r33 140r35 223r30 256r30
+X 31 s-atacco.ads
+39+9 Object 20|148r19 167r78 184r78 202r78
+41k16*Address_To_Access_Conversions 20|1w67 147r30 167r47 184r47 202r47 31|77e41
+61P9 Object_Pointer(19|6A9) 20|149r44[146] 168r41[167] 185r41[184] 203r41[202]
+71V13*To_Pointer{61P9[20|146]} 20|150r30[146] 168r71[167] 185r71[184] 203r71[202]
+X 41 s-stoele.ads
+46K16*Storage_Elements 19|1w23 40r34 20|7r40 8r31 9r23 11r21 15r20 16r23
+. 18r41 42r23 112r23 215r23 41|146e28
+58I9*Storage_Offset<integer> 19|40r51 20|7r57 8r48 9r40 11r38 15r37 16r40
+. 42r40 112r40 215r40
+68M9*Storage_Element 20|18r58
+

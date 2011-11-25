@@ -1,0 +1,130 @@
+V "GNAT Lib v4.3"
+A -O3
+A -fstack-check
+A -gnat05
+A -gnatE
+A -gnato
+A -gnatv
+A -gnati1
+A -gnatf
+A -gnatA
+P SS ZX
+R nnnvnnnnvnnnnnnnnnnnnnnnnnnnvnvnnnnnnnnvnnnnnnnnvnnnnnvnnnnnnnnnnnnnnnnnn
+
+U stream_shortcuts%b	stream_shortcuts.adb	527f50e7 DE NE PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.latin_1%s  a-chlat1.ads	a-chlat1.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_conversion%s
+W interfaces%s		interfac.ads		interfac.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+U stream_shortcuts%s	stream_shortcuts.ads	4f451a2b DE EE NE PK
+W ada%s			ada.ads			ada.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-charac.ads		20070912115821 506ce725
+D a-chlat1.ads		20070912115821 e9ee6d0a
+D a-except.ads		20070606104609 ba3e26e2
+D a-finali.ads		20070606101851 9eaacebd
+D a-stream.ads		20061031174905 34aca5be
+D a-string.ads		20070406091342 87b4230b
+D a-strmap.ads		20061031174905 5253a637
+D a-strunb.ads		20061031174905 f0549c04
+D a-tags.ads		20071213102130 e10285b3
+D a-unccon.ads		20070406091342 51e09df2
+D interfac.ads		20051209172227 a69cad5c
+D stream_shortcuts.ads	20080123134117 8bbd2391
+D stream_shortcuts.adb	20080123134117 61cc838e
+D system.ads		20080906161940 e2b32c27
+D s-exctab.ads		20070912115821 5c1c61ae
+D s-finimp.ads		20070606101344 9449f4cb
+D s-finroo.ads		20070814084926 1408f9d1
+D s-parame.ads		20070814084525 f32e56e9
+D s-secsta.ads		20070912115821 7bae3621
+D s-soflin.ads		20071213103411 2b67bae6
+D s-stache.ads		20070912115821 257b3be8
+D s-stalib.ads		20070912115821 9ac44ca2
+D s-stoele.ads		20070912115821 1104c881
+D s-stoele.adb		20071213103502 e9998c78
+D s-stratt.ads		20070406092920 b4bf338e
+D s-traent.ads		20070912115821 bd5f2753
+D s-unstyp.ads		20070912115821 c0f9fae5
+X 1 ada.ads
+16K9*Ada 19e8 13|1r6 1r19 4r35 7r35 10r40 15r23 16r13 19r23 21r34 25r30 14|1r6
+. 1r30 4r30 5r30 7r35 16r35 24r40 46r23 47r13 66r23 82r34 85r14 85r50 97r30
+. 99r14 100r50 101r25 103r16
+X 2 a-charac.ads
+16K13*Characters 18e19 14|1r10 5r34
+X 3 a-chlat1.ads
+20K24*Latin_1 298e27 14|1w21 5r45
+37e4*LF{character} 14|36r26 56r26 73r26
+40e4*CR{character} 14|34r26 54r26 71r26
+X 6 a-stream.ads
+38K13*Streams 71e16 13|1w10 4r39 7r39 10r44 15r27 19r27 21r38 25r34 14|7r39
+. 16r39 24r44 46r27 66r27 82r38 85r54 97r34 100r54 101r29 103r20
+41H9*Root_Stream_Type 69e64 13|4r47 7r47 10r52 15r35 19r35 14|7r47 16r47
+. 24r52 46r35 66r35
+44M9*Stream_Element 14|85r62 100r62
+46I9*Stream_Element_Offset<integer> 14|101r37
+53A9*Stream_Element_Array(44M9)<46I9> 13|21r46 25r42 14|82r46 97r42 103r28
+X 7 a-string.ads
+16K13*Strings 35e16 13|1r23 16r17 14|4r34 47r17
+X 9 a-strunb.ads
+41K21*Unbounded 430e26 13|1w31 16r25 14|4r42 47r25
+44R9*Unbounded_String 397e14 13|16r35 14|47r35 48r26
+80U14*Append 14|59r26
+81r7 Source{44R9} 14|59r34
+82e7 New_Item{character} 14|60r34
+X 11 a-unccon.ads
+17+9 Source 14|85r40 99r40
+18+9 Target 14|86r40 100r40
+20v14*Unchecked_Conversion 14|1w34 85r18 99r18
+X 13 stream_shortcuts.ads
+3K9*Stream_Shortcuts 26l5 26e21 14|3b14 111l5 111t21
+4U14*Put 4^19 5>19 14|7b14 14l8 14t11
+4p19 Target(6|41R9) 14|7b19 11r28
+5s19 Item{string} 14|8b19 10r20 12r28
+7U14*Get 7^19 8<19 14|16b14 22l8 22t11
+7p19 Source(6|41R9) 14|16b19 20r43
+8s19 Item{string} 14|17b19 19r20 20m10
+10U14*Get_Line 10^24 11<24 12<24 14|24b14 43l8 43t16
+10p24 Source(6|41R9) 14|24b24 32r35
+11s24 Item{string} 14|25b24 29r15 31r28 40m16
+12i24 Last{natural} 14|26b24 29m7 31r20 39m16 39r24 40r22
+14V13*Get_Line{9|44R9} 15^7 14|45b13 63l8 63t16
+15p7 Source(6|41R9) 14|46b7 52r35
+18U14*Skip_Until_Empty_Line 19^7 14|65b14 80l8 80t29
+19p7 Source(6|41R9) 14|66b7 70r32
+21V13*To_String{string} 21>24 14|82b13 94l8 94t17
+21a24 Item{6|53A9} 14|82b24 88r33 88r57 90r16 91r48
+24V13*To_Stream{6|53A9} 24>24 14|96b13 110l8 110t17
+24s24 Item{string} 14|96b24 104r27 104r50 106r16 107r42
+X 14 stream_shortcuts.adb
+4K12 Unbounded=4:42 48r16 59r16
+5K12 Latin_1=5:45 34r18 36r18 54r18 56r18 71r18 73r18
+10i11 Index{integer} 12r34
+19i11 Index{integer} 20r16
+27e7 Char{character} 32m10 33r15 40r31
+48r7 Result{9|44R9} 57r23 59m46
+49e7 Char{character} 52m10 53r15 60r46
+67i7 Line_Length{natural} 74r26 75m16 77m16 77r31
+84V16 To_Character[11|20]{character} 91r34
+88a7 Result{string} 91m10 93r14
+90i11 I<integer> 91r27 91r54
+98V16 To_Byte[11|20]{6|44M9} 107r33
+101I15 Offset{6|46I9} 104r19 104r42 107r18
+103a7 Result{6|53A9} 107m10 109r14
+106i11 I{integer} 107r26 107r48
+

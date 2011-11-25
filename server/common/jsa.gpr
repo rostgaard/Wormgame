@@ -1,0 +1,8 @@
+--  O mighty Emacs, please use -*- Ada -*- mode in this lowly file.
+with "florist";
+project JSA is
+   for Source_Dirs use (".");
+   for Object_Dir use ".";
+   for Main use ("generic_memory_mapped_arrays","stream_shortcuts");
+   package Linker renames Florist.Linker;
+end JSA;

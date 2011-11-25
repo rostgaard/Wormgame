@@ -1,0 +1,72 @@
+V "GNAT Lib v4.3"
+A -O3
+A -fstack-check
+A -gnat05
+A -gnatE
+A -gnato
+A -gnatv
+A -gnati1
+A -gnatf
+A -gnatA
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U eup%s			eup.ads			0ddff9b9 DE NE PK IU
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W posix%s		posix.adb		posix.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-charac.ads		20070912115821 506ce725
+D a-chlat1.ads		20070912115821 e9ee6d0a
+D a-except.ads		20070606104609 ba3e26e2
+D a-finali.ads		20070606101851 9eaacebd
+D a-filico.ads		20051115140645 9299732a
+D a-stream.ads		20061031174905 34aca5be
+D a-string.ads		20070406091342 87b4230b
+D a-strmap.ads		20061031174905 5253a637
+D a-strunb.ads		20061031174905 f0549c04
+D a-tags.ads		20071213102130 e10285b3
+D a-unccon.ads		20070406091342 51e09df2
+D ada_streams.ads	20060522061446 915bf429
+D eup.ads		20080123134117 93cfd1c0
+D interfac.ads		20051209172227 a69cad5c
+D posix.ads		20081012210111 6e44b47d
+D system.ads		20080906161940 e2b32c27
+D s-exctab.ads		20070912115821 5c1c61ae
+D s-finimp.ads		20070606101344 9449f4cb
+D s-finroo.ads		20070814084926 1408f9d1
+D s-parame.ads		20070814084525 f32e56e9
+D s-secsta.ads		20070912115821 7bae3621
+D s-soflin.ads		20071213103411 2b67bae6
+D s-stache.ads		20070912115821 257b3be8
+D s-stalib.ads		20070912115821 9ac44ca2
+D s-stoele.ads		20070912115821 1104c881
+D s-stoele.adb		20071213103502 e9998c78
+D s-stratt.ads		20070406092920 b4bf338e
+D s-traent.ads		20070912115821 bd5f2753
+D s-unstyp.ads		20070912115821 c0f9fae5
+X 1 ada.ads
+16K9*Ada 19e8 14|1r6 6r32
+X 8 a-string.ads
+16K13*Strings 35e16 14|1r10 6r36
+X 10 a-strunb.ads
+41K21*Unbounded 430e26 14|1w18 6r44
+44R9*Unbounded_String 397e14 14|6r54
+X 14 eup.ads
+3K9*EUP 7l5 7e8
+4A12*Ada_String{string}<integer>
+5A12*POSIX_String{16|183A9}<integer>
+6R12*Unbounded_String{10|44R9} 5|66P13 10|49p13 59p13 62p13 65p13 67p14 72p14
+. 76p14 80p14 84p13 88p13 92p13 96p13 100p13 104p13 108p14 113p13 118p13
+. 124p14 131p13 135p13 139p13 143p13 147p13 151p13 155p13 159p13 163p13 167p13
+. 171p13 175p13 179p13 183p13 187p13 195p13 201p13 207p13 213p13 221p13 229p13
+. 237p13 241p13 247p13 252p13 257p13 261p14 272p13 276p14 280p13 284p14 292p13
+. 298p14 304p13 309p14 314p13 319p14 324p13 329p14 334p13 338p14 342p13 347p14
+. 352p13 357p14 362p13 367p14 372p13 376p13 380p13 411P14 412P14 413P14 415p14
+X 16 posix.ads
+43K9*POSIX 14|1w29 5r28 16|640e10
+145E9*POSIX_Character<character>
+183A9*POSIX_String(145E9)<integer> 14|5r34
+

@@ -1,0 +1,171 @@
+V "GNAT Lib v4.3"
+A -O3
+A -fstack-check
+A -gnat05
+A -gnat05
+A -gnatE
+A -gnato
+A -gnatv
+A -gnati1
+A -gnatf
+A -gnatA
+P SS ZX
+R nnnnnnnvnnnnnnnnnnvnvvvnnnnnvnnnnnnnnnnvnnnnnnnvnnnnnvvnnnnnnnnnnnnnnnnnn
+
+U wormlevel%b		wormlevel.adb		d9381dfa DE NE PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system.arith_64%s	s-arit64.adb		s-arit64.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.string_ops_concat_5%s  s-sopco5.adb	s-sopco5.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
+
+U wormlevel%s		wormlevel.ads		220384b0 DE EE NE PK KM
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20070406091342 9c7dd3ea
+D a-calend.ads		20070912131154 e18fa1bf
+D a-except.ads		20070606104609 ba3e26e2
+D a-finali.ads		20070606101851 9eaacebd
+D a-filico.ads		20051115140645 9299732a
+D a-inteio.ads		20070406091342 03bc737c
+D a-ioexce.ads		20070406091342 be0900a0
+D a-numeri.ads		20070406091342 1cf3e608
+D a-nudira.ads		20061031181603 56734efa
+D a-nudira.adb		20051115140645 cb202240
+D a-stream.ads		20061031174905 34aca5be
+D a-tags.ads		20071213102130 e10285b3
+D a-textio.ads		20071213102052 bc6e78fe
+D a-tiinio.ads		20060215092843 949a7272
+D a-unccon.ads		20070406091342 51e09df2
+D interfac.ads		20051209172227 a69cad5c
+D i-cstrea.ads		20070406092312 e1e064a9
+D system.ads		20090104141102 e2b32c27
+D s-arit64.ads		20050905075125 ded5f422
+D s-crtl.ads		20070406092312 ef997abb
+D s-exctab.ads		20070912115821 5c1c61ae
+D s-ficobl.ads		20070814084926 8bb681e5
+D s-finimp.ads		20070606101344 9449f4cb
+D s-finroo.ads		20070814084926 1408f9d1
+D s-imgint.ads		20071213103004 f77d133c
+D s-parame.ads		20070814084525 f32e56e9
+D s-secsta.ads		20070912115821 7bae3621
+D s-soflin.ads		20071213103411 2b67bae6
+D s-stache.ads		20070912115821 257b3be8
+D s-stalib.ads		20070912115821 9ac44ca2
+D s-stoele.ads		20070912115821 1104c881
+D s-stoele.adb		20071213103502 e9998c78
+D s-stratt.ads		20070406092920 b4bf338e
+D s-strops.ads		20070912115821 845f72d2
+D s-sopco3.ads		20070912115821 72ce1063
+D s-sopco4.ads		20070912115821 bc112723
+D s-sopco5.ads		20070912115821 191315e8
+D s-traent.ads		20070912115821 bd5f2753
+D s-unstyp.ads		20070912115821 c0f9fae5
+D s-valint.ads		20070406091342 d23209d2
+D s-wchcon.ads		20071213102052 ab028799
+D wormlevel.ads		20080123134117 cba2c1c8
+D wormlevel.adb		20080123183828 129adc32
+X 1 ada.ads
+16K9*Ada 19e8 42|1r6 1r19 1r40 43|13r10 13r22 53r31 70r31 71r31 130r31 131r31
+. 138r7 144r10
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[14|47] 42|1w23 43|13r26
+X 8 a-numeri.ads
+16K13*Numerics 32e17 42|1r44 43|53r35 70r35 71r35 130r35 131r35
+X 9 a-nudira.ads
+52k22*Discrete_Random 116e33 42|1w53 43|53r44 70r44 71r44 130r44 131r44
+65R9 Generator 43|56r24[53] 74r24[70] 75r24[71] 134r24[130] 135r24[131]
+67V13 Random{42|6E9} 43|58r14[53] 83r19[70] 84r19[71] 140r19[130] 141r19[131]
+69U14 Reset 43|80r10[70] 81r10[71]
+X 13 a-textio.ads
+50K13*Text_IO 482e16 42|1w10 43|13r14 138r11 144r14
+168U14*New_Line 43|32r10
+244U14*Put 43|17r13 20r19 22r19 24r19 26r19 28r19 30r13
+265U14*Put_Line 43|138r19 144r22
+X 42 wormlevel.ads
+2K9*Wormlevel 32l5 32e14 43|1b14 157l5 157t14
+4E9*Field 4e38 5r67 31r31 43|152r32
+4n20*Luft{4E9} 43|7r35 19r21 143r51
+4n25*Mur{4E9} 43|21r21 40r33 41r49 46r52 47r52 93r84 100r84 107r84 114r84
+4n29*Kage{4E9} 43|23r21
+4n34*Orm{4E9} 43|25r21 93r49 100r49 107r49 114r49
+5A9*Fields(4E9)<integer><integer> 11r27
+6E9*Course 6e45 25r34 27r42 43|52r34 53r61 62r42
+6n20*North{6E9} 43|90r18
+6n27*East{6E9} 43|97r18
+6n33*South{6E9} 43|104r18
+6n40*West{6E9} 43|111r18
+7R9*Level 7d15 7d32 12e17 13r32
+7i15*Width{positive} 9r39 11r40
+7i32*Height{positive} 10r39 11r52
+9i10*Number_Of_Cols{positive} 43|6r26 16r26 41r30 45r23 67r53 98r53 112r43
+. 127r53
+10i10*Number_Of_Rows{positive} 43|68r53 91r53 105r43 128r53
+11a10*Field_value{5A9} 43|5r18 7m15 15r26 18m20 39r18 40m12 41m12 46m12 46r27
+. 47m12 47r27 93m23 93m58 100m23 100m58 107m23 107m58 114m23 114m58 143m22
+. 154m9
+13P9*Level_Access(7R9) 21r28 22r32 23r39 26r42 28r42 29r31 43|3r28 12r32
+. 36r38 61r42 126r42 150r32
+14R9*Position 18e17 19r51 27r57 28r63 30r31 43|62r57 63r24 126r63 136r13
+. 151r32
+16i10*X{positive} 43|83m14 86r24 140m14 143r39 154r24
+17i10*Y{positive} 43|84m14 87r24 141m14 143r46 154r29
+19A9*Positions(14R9)<integer>
+21U14*Empty 21>21 43|3b14 10l8 10t13
+21p21 L{13P9} 43|3b21 5r16 6r24 7r13
+22U14*Put_Level 22>25 43|12b14 34l8 34t17
+22p25 L{13P9} 43|12b25 15r24 16r24 18r18
+23U14*Put_Walls_Around 23>32 43|36b14 50l8 50t24
+23p32 L{13P9} 43|36b31 39r16 40r10 41r10 41r28 45r21 46r10 46r25 47r10 47r25
+25V13*Random_Course{6E9} 43|52b13 59l8 59t21
+26V13*Random_Worm_Position{14R9} 26>35 27>35 43|61b13 124l8 124t28
+26p35 L{13P9} 43|61b35 67r51 68r51 91r51 93r21 93r56 98r51 100r21 100r56
+. 105r41 107r21 107r56 112r41 114r21 114r56
+27e35 D{6E9} 43|62b35 89r15
+28V13*Random_Cake_Position{14R9} 28>35 43|126b13 148l8 148t28
+28p35 L{13P9} 43|126b35 127r51 128r51 143r20
+29U14*Set_Field 29>24 30>24 31>24 43|150b14 155l8 155t17
+29p24 L{13P9} 43|150b25 154r7
+30r24 P{14R9} 43|151b25 154r22 154r27
+31e24 F{4E9} 43|152b25 154r35
+X 43 wormlevel.adb
+5i11 Y{integer} 7r29
+6i14 X{integer} 7r27
+15i11 Y{integer} 18r34
+16i14 X{integer} 18r32
+39i11 I{integer} 40r25 41r25
+45i11 I{integer} 46r46 47r46
+53K15 Random_C[9|52] 54r11 56r15
+56r7 C_Gen{9|65R9[53]} 58r21
+63r7 Pos{42|14R9} 83m10 84m10 86r20 87r20 123r14
+64b7 Okay{boolean} 78m10 92r32 94m21 99r32 101m21 106r32 108m21 113r32 115m21
+. 120r20
+65i7 Temp_X{integer} 86m10 93r36 93r71 98r24 98r35 107r36 107r71 112r25 112r61
+65i15 Temp_Y{integer} 87m10 91r24 91r35 100r39 100r74 105r25 105r61 114r39
+. 114r74
+67I15 X_Coordinates{integer} 70r61
+68I15 Y_Coordinates{integer} 71r61
+70K15 Random_X[9|52] 72r11 74r15
+71K15 Random_Y[9|52] 72r21 75r15
+74r7 X_Gen{9|65R9[70]} 80r16 83r26
+75r7 Y_Gen{9|65R9[71]} 81r16 84r26
+91i19 I{integer} 93r44 93r79
+98i19 I{integer} 100r36 100r71
+105i19 I{integer} 107r44 107r79
+112i19 I{integer} 114r36 114r71
+127I15 X_Coordinates{integer} 130r61
+128I15 Y_Coordinates{integer} 131r61
+130K15 Random_X[9|52] 132r11 134r15
+131K15 Random_Y[9|52] 132r21 135r15
+134r7 X_Gen{9|65R9[130]} 140r26
+135r7 Y_Gen{9|65R9[131]} 141r26
+136r7 Pos{42|14R9} 140m10 141m10 143r35 143r42 147r14
+
