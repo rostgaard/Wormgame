@@ -1,0 +1,7 @@
+This is a multiplayer wormgame server and client.
+
+It uses ada for the server part, and java for the client.
+
+To build, you need GNAT and florist for the server, and a JDK for the client
+
+ - enjoy
